@@ -16,5 +16,5 @@ class Bankaccount {
         void ShowBalance();
         void Deposit(double Amount);
         void Withdraw(double Amount);
-}
+};
 #endif
