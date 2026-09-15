@@ -1,0 +1,42 @@
+1. Start the program.
+
+2. Ask the user to enter their name.
+
+3. Ask the user to create a PIN.
+
+4. Create the bank account using that name and PIN.
+
+5. Ask the user to enter the PIN to log in.
+
+6. If the PIN is wrong:
+    - show “Access denied”
+    - stop the program
+
+7. If the PIN is correct:
+    - show the bank menu
+
+8. The menu has these options:
+    - show balance
+    - deposit money
+    - withdraw money
+    - exit
+
+9. If the user chooses show balance:
+    - display account name
+    - display current money
+
+10. If the user chooses deposit:
+    - ask how much money to add
+    - if the amount is valid, add it
+    - otherwise, show an error
+
+11. If the user chooses withdraw:
+    - ask how much money to remove
+    - check if the amount is valid
+    - check if the user has enough money
+    - if everything is okay, remove the money
+    - otherwise, show an error
+
+12. Repeat the menu until the user chooses exit.
+
+13. End the program.
