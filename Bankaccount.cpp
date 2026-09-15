@@ -10,13 +10,7 @@ Bankaccount::Bankaccount(string Name, string UserPin) {
 }
 
 bool Bankaccount::CheckPin(string EnteredPin) {
-    if(EnteredPin==Pin) {
-        return true;
-    }
-    else {
-        cout<<"Wrong Pin"<<endl;
-        return false;
-    }
+    return EnteredPin==Pin;
 }
 
 void Bankaccount::ShowBalance() {

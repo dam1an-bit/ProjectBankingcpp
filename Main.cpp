@@ -21,7 +21,7 @@ int main() {
     cin>>EnteredPin;
 
     if(account.CheckPin(EnteredPin)) {
-        bool LoggedIn=true;
+        LoggedIn=true;
         cout<<"Login successfull"<<endl;
     }
     else {
