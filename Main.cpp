@@ -19,7 +19,6 @@ int main() {
     while(!LoggedIn) {
     cout<<"Enter your Pin to login:";
     cin>>EnteredPin;
-
     if(account.CheckPin(EnteredPin)) {
         LoggedIn=true;
         cout<<"Login successfull"<<endl;

@@ -9,7 +9,7 @@
 5. Ask the user to enter the PIN to log in.
 
 6. If the PIN is wrong:
-    - show “Access denied”
+    - show Access denied
     - stop the program
 
 7. If the PIN is correct:
